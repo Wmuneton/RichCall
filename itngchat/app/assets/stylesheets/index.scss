@@ -1,10 +1,32 @@
 // Place all the styles related to the index controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-body{
-    background: url("/assets/Chica usando la computadora portátil.webp") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+
+body {
+    background-color: #fff;
+    padding: 0rem;
+    background: url("/assets/Chica usando la computadora portátil.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+}
+
+
+
+.text-right{
+    color: rgb(31, 41, 69); 
+    text-align: right;
+    padding: 0rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+    
+    background-image: url("/assets/ChicaUsandoLaComputadoraPortatil.png");
+    
     }
+}
+
